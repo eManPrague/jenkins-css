@@ -42,10 +42,6 @@
 	padding: 0px 15px 0px 15px;
 }
 
-#header .login a:hover {
-	color: #red;
-}
-
 /* Top horizontal breadcrumb navigation */
 
 #right-top-nav .smallfont a{
@@ -54,10 +50,10 @@
 
 .top-sticker-inner a {
 	color: white;
-};
+}
 
 #breadcrumbs {
-	background-color: clear;
+	background-color: transparent;
 }
 
 #breadcrumbs li {
