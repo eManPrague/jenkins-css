@@ -1,0 +1,186 @@
+@charset "utf-8";
+
+/*-------------- Top row ---------------*/
+
+#page-body.fixedGridLayout {
+	top:61px;
+}
+
+#header {
+	height: 37px;
+	background-color: #37E;
+}
+
+#searchform{
+	visibility: hidden;
+}
+
+#description-link{
+	display: none;
+}
+
+#jenkins-head-icon {
+	background: url(http://www.eman.cz/eman_new/wp-content/thesis/skins/classic-r/images/logo.svg);
+	padding: 32px 60px 0px 0px;
+	width:0px; 
+	height: 0px;
+	background-size: 60px 22px;
+	background-repeat: no-repeat;
+}
+
+#jenkins-name-icon {
+	content: url(http://www.eman.cz/eman_new/wp-content/thesis/skins/classic-r/images/logo.svg);
+	left: 65px;
+}
+
+#header .login {
+	color: #2D95D1;
+	margin-right: 0px;
+}
+
+#header .login a {
+	padding: 0px 15px 0px 15px;
+}
+
+#header .login a:hover {
+	color: #red;
+}
+
+/* Top horizontal breadcrumb navigation */
+
+#right-top-nav .smallfont a{
+	color: white;
+}
+
+.top-sticker-inner a {
+	color: white;
+};
+
+#breadcrumbs {
+	background-color: clear;
+}
+
+#breadcrumbs li {
+	color: white !important;
+}
+
+#breadcrumbs li:hover , a.breadcrumbBarAnchor.mouseIsOverMenuSelector {
+	background-color: #37E !important;
+	height: 90%;
+}
+
+#breadcrumbs li a:link {
+	color: white !important;
+}
+
+#breadcrumbs li a:hover {
+	color: white !important;
+}
+
+#breadcrumbs li a.model-link.inside.breadcrumbBarAnchor {
+	color: white !important;
+}
+
+#breadcrumbs a.inside.breadcrumbBarAnchor{
+	color: white !important;
+}
+
+.top-sticker-inner {
+	background-color: #14A;
+}
+
+.top-sticker{
+	top: 37px !important;;
+}
+
+/*-------------- Side panel ---------------*/
+
+#side-panel{
+	padding-left: 0px !important;
+}
+
+.col-xs-24.pane-header{
+	background-color: #e3f3ff;
+	color: #14A;
+}
+
+#side-panel{
+	width: 230px !important;;
+}
+
+/*-------------- Main panel ---------------*/
+
+#main-panel{
+	margin-left: 220px !important;
+	width: auto;
+}
+
+.tabBar .tab a {
+  border-top-left-radius: 2px;
+  border-top-right-radius: 2px;
+}
+
+/*-------------- Footer ---------------*/
+
+#footer-container{
+	background-color: white;
+	border-top-color: #EEE;
+}
+
+/*-------------- Content ---------------*/
+
+#projectstatus tr.header{
+	background-color: #e3f3ff !important;;
+}
+
+.tab.active{
+	background-color: #e3f3ff !important;
+}
+
+.tabBar [type="radio"]:checked ~ a{
+	background-color: transparent;
+	color: #0860a4;
+}
+
+body, table, form, td, th, p {
+    color: #555;
+}
+
+.bigtable th {
+    background-color: transparent;
+}
+
+table.sortable a.sortheader {
+    text-decoration: none;
+    color: #0860a4;
+    display: block;
+}
+
+/*---- Table Radii ----*/
+
+.pane-frame {
+  border-radius: 2px;
+}
+
+.pane-header {
+  border-top-left-radius: 2px;
+  border-top-right-radius: 2px;
+}
+.pane-footer {
+  border-bottom-left-radius: 2px;
+  border-bottom-right-radius: 2px;
+}
+
+/*------ Links ------*/
+
+a:link {
+		text-decoration-color: #bfe3ff;
+		-moz-text-decoration-color: #bfe3ff;
+    color: #0860a4;
+}
+
+a:visited {
+		text-decoration-color: #bfe3ff;
+		-moz-text-decoration-color: #bfe3ff;
+    color: #205279;
+}
