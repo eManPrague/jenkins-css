@@ -3,12 +3,15 @@
 /*-------------- Top row ---------------*/
 
 #page-body.fixedGridLayout {
-	top:61px;
+	margin-top: 36px;
 }
 
 #header {
 	height: 37px;
 	background-color: #37E;
+	position: fixed;
+	z-index: 1000;
+	width: 100%;
 }
 
 #searchform{
@@ -100,13 +103,14 @@
 }
 
 #side-panel{
-	width: 230px !important;;
+	width: 260px !important;;
 }
 
 /*-------------- Main panel ---------------*/
 
 #main-panel{
-	margin-left: 220px !important;
+	margin-left: 0px !important;
+	padding-left: 270px !important;
 	width: auto;
 }
 
@@ -120,6 +124,7 @@
 #footer-container{
 	background-color: white;
 	border-top-color: #EEE;
+	display: none;
 }
 
 /*-------------- Content ---------------*/
