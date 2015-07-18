@@ -2,8 +2,8 @@
 
 /*-------------- Top row ---------------*/
 
-#page-body.fixedGridLayout {
-	margin-top: 36px;
+#page-body {
+	margin: 36px;
 }
 
 #header {
